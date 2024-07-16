@@ -1,0 +1,9 @@
+streamlit
+fpdf
+python-docx
+pandas
+openpyxl
+pypandoc
+pandoc
+pdflatex
+pdf2docx

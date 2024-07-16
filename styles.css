@@ -1,0 +1,99 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+.stApp {
+    background-color: #1e1e1e;
+}
+
+.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.stButton > button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.stTextInput > div > input, .stTextArea > div > textarea {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.stTextInput > div > input:focus, .stTextArea > div > textarea:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.stSelectbox > div > div > div {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.stSelectbox > div > div > div:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.stSlider > div > div > div > div {
+    color: #ffffff;
+}
+
+.stDownloadButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.stDownloadButton > button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.btn-blue {
+    background-color: #007BFF;
+}
+.btn-green {
+    background-color: #28A745;
+}
+.btn-red {
+    background-color: #DC3545;
+}
